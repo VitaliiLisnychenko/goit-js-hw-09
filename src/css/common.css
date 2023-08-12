@@ -16,3 +16,24 @@ img {
   display: block;
   max-width: 100%;
 }
+/* #datetime-picker {
+  width: 190px;
+  height: 35px;
+} */
+/* button {
+  background-color: rgb(223, 102, 102);
+} */
+.timer {
+  display: flex;
+  margin-top: 15px;
+  gap: 15px;
+}
+.field span {
+  display: block;
+  text-align: center;
+}
+.value {
+  font-size: 32px;
+  font-weight: 500;
+  color: red;
+}
