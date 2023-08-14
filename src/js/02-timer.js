@@ -63,7 +63,7 @@ function onStartClick(evt) {
     if (remainingTime >= 0) {
       const { days, hours, minutes, seconds } = convertMs(remainingTime);
 
-      days.textContent = addLeadingZero(days);
+      daysEl.textContent = addLeadingZero(days);
       hoursEl.textContent = addLeadingZero(hours);
       minutesEl.textContent = addLeadingZero(minutes);
       secondsEl.textContent = addLeadingZero(seconds);
